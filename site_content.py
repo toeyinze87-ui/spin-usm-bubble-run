@@ -49,7 +49,7 @@ def image_tag(path,alt):
     return '<img loading="lazy" src="data:'+mime+';base64,'+data+'" alt="'+esc(alt)+'">'
 def button(link,label):
     if not link:return ""
-    return '<a class="button" target="_blank" rel="noopener noreferrer" href="'+esc(url(link))+'">'+esc(label)+' ↗</a>'
+    return '<a class="button" target="_top" rel="noopener noreferrer" href="'+esc(url(link))+'">'+esc(label)+' ↗</a>'
 def render(d):
     nav=''.join('<a href="#'+k+'">'+label+'</a>' for k,label in (("guide","Event guide"),("collection","T-shirt &amp; medal"),("gallery","Gallery"),("faq","FAQ"),("run_registration","Run registration")))
     if d["poster"]["visible"]:nav='<a href="#poster">Recruitment poster</a>'+nav
