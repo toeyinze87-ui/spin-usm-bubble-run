@@ -1,0 +1,35 @@
+.stMainBlockContainer{max-width:1200px;padding:1.5rem 1rem 3rem}
+.spin-site{color:#f5f4fa;background:#08090d;font-family:Arial,Helvetica,sans-serif;border-radius:14px;overflow:hidden}
+.spin-site *{box-sizing:border-box}.spin-site a{color:inherit;text-decoration:none}
+.spin-site header,.spin-site section,.spin-site footer{padding-left:5%;padding-right:5%}
+.spin-site header{display:flex;gap:25px;justify-content:space-between;align-items:center;padding-top:24px;padding-bottom:24px;border-bottom:1px solid #ffffff26}
+.spin-site .brand{font-size:31px;font-style:italic;font-weight:900;letter-spacing:-2px}
+.spin-site .brand span{display:block;font-size:9px;letter-spacing:1.5px;font-style:normal}
+.spin-site nav{display:flex;flex-wrap:wrap;gap:12px 20px;font-size:12px;justify-content:flex-end;color:#acabb9}
+.spin-site .intro-section{padding-top:60px;padding-bottom:50px;background:radial-gradient(ellipse at 90% 10%,#52366735,transparent 60%)}
+.spin-site .eyebrow,.spin-site .label{font-size:11px;letter-spacing:2px;font-weight:700}
+.spin-site .eyebrow{color:#b9edf5}.spin-site .label{margin:28px 0 18px;color:#acabb9}
+.spin-site .intro-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:7%;align-items:end}
+.spin-site h1{font-size:clamp(48px,6.5vw,84px);line-height:1.02;letter-spacing:-4px;margin:0;white-space:pre-line;color:#f5f4fa}
+.spin-site h2{font-size:clamp(28px,4vw,44px);letter-spacing:-1.5px;margin:18px 0;color:#f5f4fa}
+.spin-site h3{font-size:24px;line-height:1.3;margin:10px 0 16px;color:#f5f4fa}
+.spin-site p{line-height:1.75;white-space:pre-line;overflow-wrap:anywhere}
+.spin-site .intro-side p,.spin-site .future-card p{color:#acabb9;font-size:15px}
+.spin-site .button{display:inline-block;padding:17px 24px;margin-top:10px;background:linear-gradient(110deg,#b1f2ff,#e6c5f4 65%,#f6d6e3);color:#11111b;border-radius:100px;font-weight:700;font-size:14px;line-height:1.4}
+.spin-site .button:hover{filter:brightness(1.1)}
+.spin-site .poster-section{padding-top:10px;padding-bottom:45px}
+.spin-site .poster-frame{max-width:900px;margin:auto;border:1px solid #ffffff26;border-radius:16px;overflow:hidden;background:#000}
+.spin-site img{display:block;width:100%;height:auto}
+.spin-site .poster-caption{font-size:10px;letter-spacing:1px;color:#acabb9;max-width:900px;margin:16px auto}
+.spin-site .future-section{padding-top:45px;padding-bottom:45px;border-top:1px solid #ffffff26}
+.spin-site .feature-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:25px}
+.spin-site .future-card{min-width:0;padding:27px;border:1px solid #ffffff26;border-radius:16px;background:linear-gradient(145deg,#15151f,#0b0d12)}
+.spin-site .soon{display:inline-block;border:1px solid #c9b9ed55;color:#e0cff5;background:#c9b9ed0b;font-size:11px;border-radius:100px;padding:8px 12px;letter-spacing:.7px;margin-top:10px}
+.spin-site .published-gallery{display:grid;gap:15px;margin:20px 0}.spin-site .published-gallery img{border-radius:8px}
+.spin-site .closing{display:flex;justify-content:space-between;align-items:center;gap:25px;padding-top:45px;padding-bottom:50px;border-top:1px solid #ffffff26}
+.spin-site .closing p:not(.eyebrow){font-size:13px;color:#acabb9}
+.spin-site footer{padding-top:22px;padding-bottom:22px;display:flex;justify-content:space-between;gap:20px;border-top:1px solid #ffffff26;font-size:10px;color:#acabb9}
+.spin-site .post{display:grid;grid-template-columns:150px 1fr;gap:20px;border-bottom:1px solid #ffffff26;padding:25px 0}
+.spin-site .post time{font-size:12px;color:#acabb9}.spin-site .post p{color:#acabb9}
+.spin-site :focus-visible{outline:3px solid #b9edf5;outline-offset:5px}
+@media(max-width:700px){.spin-site header{flex-direction:column;align-items:flex-start}.spin-site nav{justify-content:flex-start}.spin-site .intro-grid,.spin-site .feature-grid,.spin-site .post{grid-template-columns:1fr}.spin-site .intro-grid{gap:20px}.spin-site h1{letter-spacing:-2px}.spin-site .closing,.spin-site footer{display:block}.spin-site footer span{display:block;margin-top:12px}.spin-site .poster-section{padding-left:10px;padding-right:10px}}

@@ -1,0 +1,67 @@
+{
+  "name": "SPIN USM BUBBLE RUN 2027",
+  "category": "COMMITTEE RECRUITMENT",
+  "headline": "Be part of the team.",
+  "intro": "Committee recruitment is here. Explore the poster below and apply using the registration form.",
+  "registration_label": "Apply to join the committee",
+  "registration_url": "https://forms.gle/ToiAGNVwjLzkHAJq9",
+  "contact": "GARRETT: 016-7292125  |  CHLOE: 011-26783835",
+  "updated": "",
+  "poster": {
+    "visible": true,
+    "file": "images/poster.png",
+    "caption": "COMMITTEE RECRUITMENT / 2027",
+    "alt": "SPIN USM Bubble Run 2027 committee recruitment. 11 and 12 December 2026, 8 PM to 11 PM, IK CAFE (L10). Programme, Logistics, Ticketing and Registration, Sponsorship, DM and Publicity. MYCSD provided."
+  },
+  "announcements": [],
+  "sections": {
+    "schedule": {
+      "published": false,
+      "body": "",
+      "images": [],
+      "link": ""
+    },
+    "route": {
+      "published": false,
+      "body": "",
+      "images": [],
+      "link": ""
+    },
+    "tshirt": {
+      "published": false,
+      "body": "",
+      "images": [],
+      "link": ""
+    },
+    "medal": {
+      "published": false,
+      "body": "",
+      "images": [],
+      "link": ""
+    },
+    "posters": {
+      "published": false,
+      "body": "",
+      "images": [],
+      "link": ""
+    },
+    "photos": {
+      "published": false,
+      "body": "",
+      "images": [],
+      "link": ""
+    },
+    "faq": {
+      "published": false,
+      "body": "",
+      "images": [],
+      "link": ""
+    },
+    "run_registration": {
+      "published": false,
+      "body": "",
+      "images": [],
+      "link": ""
+    }
+  }
+}
